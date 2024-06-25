@@ -5,7 +5,7 @@ echo """
 ##############################
 # T-POT DTAG Data Submission #
 # Contact:                   #
-# cert@telekom.de            # 
+# kur@damiedrsh.com          # 
 ##############################
 """
 
