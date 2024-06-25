@@ -5,7 +5,7 @@ echo """
 ##############################
 # T-POT DTAG Data Submission #
 # Contact:                   #
-# cert@telekom.de            # 
+# kur@damiedrsh.com          # 
 ##############################
 """
 
@@ -60,7 +60,7 @@ fi
 echo ""
 echo "[+] Creating config file with API UserID '$apiUser' and API Token '$apiToken'."
 echo "[+] Fetching config file from github. Outgoing https requests must be enabled!"
-wget -q https://raw.githubusercontent.com/telekom-security/tpotce/master/docker/ews/dist/ews.cfg -O ews.cfg.dist 
+wget -q https://raw.githubusercontent.com/f0rc3ps/tpotce/master/docker/ews/dist/ews.cfg -O ews.cfg.dist 
 if [[ -f "ews.cfg.dist" ]]; then
 	echo "[+] Successfully downloaded ews.cfg from github."
 else 

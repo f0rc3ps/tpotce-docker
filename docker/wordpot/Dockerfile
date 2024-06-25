@@ -23,7 +23,7 @@ RUN apk -U --no-cache add \
 # Install wordpot from GitHub and setup
     mkdir -p /opt && \
     cd /opt/ && \
-    git clone https://github.com/t3chn0m4g3/wordpot && \
+    git clone https://github.com/f0rc3ps/wordpot && \
     cd wordpot && \
     git checkout 8fedeb1b74e1d225da2a7273656bf0afa84a20aa && \
     cp /root/dist/requirements.txt . && \
